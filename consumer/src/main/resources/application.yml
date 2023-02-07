@@ -1,0 +1,7 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: consuner
+  profiles:
+    active: emailSend,rabbitMq

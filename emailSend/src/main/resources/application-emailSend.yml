@@ -1,0 +1,13 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 465
+    default-encoding: UTF-8
+    username: 1401427975@qq.com
+    password: mfczavfedjzwbaag # 这里不是填自己的登录密码，而是填打开pop3/smtp生成的授权码
+    protocol: smtps
+    properties:
+      mail:
+        debug: true
+        smtp:
+          socketFactoryClass: javax.net.ssl.SSLSocketFactory # 配饰 SSL 加密工厂
